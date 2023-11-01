@@ -7,7 +7,7 @@ using namespace std;
 
 const int TABLE_SIZE = 100;
 
-// Хеш-функции Пирсона
+// Хеш-функция Пирсона
 unsigned int pearsonHash(const string& key) {
     const unsigned char* data = reinterpret_cast<const unsigned char*>(key.c_str());
     unsigned int hash = 0;
